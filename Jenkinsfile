@@ -6,7 +6,6 @@ ddef COLOR_MAP = [
 pipeline {
   agent any
   environment {
-    SONAR_TOKEN = "SonarQube"
     WORKSPACE = "${env.WORKSPACE}"
     NEXUS_CREDENTIAL_ID = 'Nexus-Credential'
     SONAR_TOKEN = "SonarQube-Token"
